@@ -1,0 +1,23 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+body{
+  font-family: '$fontFamily', sans-serif;
+  color: $gary-400;
+  line-height: 1.5;
+}
+
+.wrap{
+  max-width: $maxWidth;
+  margin: 0 auto;
+}

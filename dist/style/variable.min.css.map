@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../Sass/helper/variable.scss"
+    ],
+    "names": [],
+    "file": "variable.min.css"
+}

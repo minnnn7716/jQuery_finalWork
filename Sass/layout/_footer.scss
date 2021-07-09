@@ -1,0 +1,11 @@
+.footer{
+  img{
+    width: auto;
+    @include mobile(){
+      margin-bottom: 16px;
+    }
+  }
+  a:hover{
+    color: darken($secondary,20%)
+  }
+}

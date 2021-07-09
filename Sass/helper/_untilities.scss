@@ -1,0 +1,130 @@
+// color
+.primary{
+  color: $primary;
+}
+
+.secondary{
+  color: $secondary;
+}
+
+.bg-gray-100{
+  background: $gray-100;
+}
+
+.bg-gray-200{
+  background: $gray-200;
+}
+
+.white{
+  color: white;
+}
+
+// font
+.fontXl{
+  font-size: $fontXl;
+}
+
+.fontL{
+  font-size: $fontL;
+}
+
+.m-fontL{
+  @include mobile(){
+    font-size: $fontL;
+  }
+}
+
+.fontM{
+  font-size: $fontM;
+}
+
+.fontS{
+  font-size: $fontS;
+  @include mobile(){
+    font-size: $fontM;
+  }
+}
+
+.m-fontS{
+  @include mobile(){
+  
+    font-size: $fontS;
+  }
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.center{
+  text-align: center;
+}
+
+// display
+.d-none{
+  display: none;
+}
+
+.d-m-none{
+  @include mobile(){
+    display: none !important;
+  }
+}
+
+.d-block{
+  display: block;
+}
+
+.d-m-block{
+  @include mobile(){
+    display: block;
+  }
+}
+
+.d-flex{
+  display: flex;
+}
+
+.d-fd-column{
+  flex-direction: column;
+}
+
+.d-m-fd-column{
+  @include mobile(){
+    flex-direction: column;
+  }
+}
+
+.d-j-center{
+  justify-content: center;
+}
+
+.d-j-sb{
+  justify-content: space-between;
+}
+
+.d-j-sa{
+  justify-content: space-around;
+}
+
+.d-j-fd{
+  justify-content: flex-end;
+}
+
+.d-a-center{
+  align-items: center;
+}
+
+// position
+.p-relative{
+  position: relative;
+}
+
+.p-absolute{
+  position: absolute;
+}
+
+// width
+.w-100{
+  width: 100%;
+}
